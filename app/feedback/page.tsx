@@ -58,7 +58,7 @@ export default function Feedback() {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="Your Name"
+                placeholder="Name"
                 pattern="([A-Z])[\w+.]{1,}"
                 value={data.name}
                 onChange={handleChange}
@@ -70,7 +70,7 @@ export default function Feedback() {
                 type="email"
                 id="email"
                 name="email"
-                placeholder="Your Email"
+                placeholder="Email"
                 pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
                 value={data.email}
                 onChange={handleChange}
