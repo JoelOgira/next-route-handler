@@ -91,7 +91,9 @@ export default function Feedback() {
             <button
                 className="p-3 mb-6 text-2xl rounded-2xl text-black border-solid border-white border-2 max-w-xs bg-slate-400 hover:cursor-pointer hover:bg-slate-300 disabled:hidden"
                 disabled={!canSave}
-            >Submit</button>
+            >
+                Submit
+            </button>
 
         </form>
     )
